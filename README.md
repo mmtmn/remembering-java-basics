@@ -1,7 +1,6 @@
 # remembering-java
- Remembering the basics of java
- 
- This repository is going to be used to remeber Java for my 5th semester in Computer Science, during 2021.
+
+ This repository is going to be used to remeber the basics of Java for my 5th semester in Computer Science, during 2021.
  
  
 <div align=center>
