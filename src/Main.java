@@ -1,3 +1,5 @@
+package src;
+
 // Remembering the basics of Java Syntax, again :)
 public class Main {
     public static void main(String[] args) {
