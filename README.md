@@ -10,7 +10,7 @@
  
  </div>
  
-On the first push towards remembering Java, 132 lines of code in one go, in march 3rd 2021, the following topics were taken upon: Syntax, comments, variables, data types, type casting, operators, strings, math, booleans, if..else, switch, while loop, for loop, break/continue, arrays.
+On the first push towards remembering Java, 134 lines of code in one go, in march 3rd 2021, the following topics were taken upon: Syntax, comments, variables, data types, type casting, operators, strings, math, booleans, if..else, switch, while loop, for loop, break/continue, arrays.
  
 So far so good, looking foward for the next section: Java Methods (including: Methods, method parameters, method overloading, scope, recursion).
  
