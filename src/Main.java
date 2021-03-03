@@ -101,12 +101,12 @@ public class Main {
         }
 
         // break and continue
-        for (int aaa = 0; aaa < 10; aaa++) { //start
+        for (int aaa = 0; aaa < 10; aaa++) { //start of loop
             if (aaa == 4) {
                 break;
             }
             System.out.println(aaa);
-        } // finish
+        } // finish of such loop
 
         for (int bbb=0; bbb < 10; bbb++) {
             if (bbb == 4) {
