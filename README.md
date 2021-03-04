@@ -18,6 +18,12 @@ So far so good, looking foward for the next section: Java Methods (including: Me
 
 ## Java Methods
 
+<div align=center>
+ 
+ ![Image of args](https://github.com/mmtmn/remembering-java-basics/blob/main/assets/secoundSectionPhoto.png)
+ 
+</div>
+
 On this secound section, 120 lines of code was writting, on march 4rth 2021, two new folder were created inside the src folder. A basics folder for the last time i pushed foward into remembering java, and a folder for java methods. In java methods it was covered methods, returning methods with multiple parameters, method overloading, scope, recursion, recursion halting.
 
 looking foward into next time, where classes will be explored.
