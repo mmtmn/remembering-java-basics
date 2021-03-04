@@ -1,4 +1,4 @@
-package src;
+package src.part_1_basics;
 
 // Remembering the basics of Java Syntax, again :)
 public class Main {
