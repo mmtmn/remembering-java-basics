@@ -117,3 +117,21 @@ public class Methods { // this is the class
 
     }
 }
+
+/*
+
+Outputs:
+
+hello, from a method.
+dear sir, the 'parameter' is working
+dear ma'am, the 'parameter' is working
+hostname: admin, ip: 123
+20
+15
+105
+'Else...if' on a method is working
+35
+35.9
+55
+110
+*/
