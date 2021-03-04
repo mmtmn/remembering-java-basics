@@ -1,7 +1,7 @@
 package src.part_1_basics;
 
 // Remembering the basics of Java Syntax, again :)
-public class Main {
+public class Basics {
     public static void main(String[] args) {
         // Hello world;
         System.out.println("Hello Java, we meet once again.");
@@ -132,3 +132,58 @@ public class Main {
         
     }
 }
+
+/* 
+Outputs
+
+Hello Java, we meet once again.
+hello, from variables
+5
+0.36000013
+a
+true
+the location of variables is: 5
+The size of this string is: 7
+hello, from variables
+ general kronobi
+the max in (5,10) is:10
+the max in (5,10) is:5
+the sqrd root of 64 is:8.0
+the random number between 1 and 1000 is:347.15377774214176
+'if' is working
+'else' is working.
+'else if' is working
+'Ternary Operand' is working
+'Switch' is working
+'default' in the switch is working
+The amount of time this looped so far: 1
+The amount of time this looped so far: 2
+The amount of time this looped so far: 3
+The amount of time this looped so far: 4
+The amount of time this looped so far: 5
+'Loops' are working
+'do-while loop' is working, and the loop count is: 0
+'do-while loop' is working, and the loop count is: 1
+'do-while loop' is working, and the loop count is: 2
+'do-while loop' is working, and the loop count is: 3
+'do-while loop' is working, and the loop count is: 4
+'for loop' is working
+'for loop' is working
+'for loop' is working
+black
+white
+blue
+0
+1
+2
+3
+012356789
+number1
+number0
+7
+number0
+number2
+number3
+1
+0
+*/
