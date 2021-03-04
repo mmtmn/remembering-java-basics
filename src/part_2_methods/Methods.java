@@ -50,12 +50,70 @@ public class Methods { // this is the class
     static int fifthMethod(int y, int z) {
         return(y + z);
     }
+
+    static void CheckId(int id) {
+        if (id != 1) {
+            System.out.println("Not autorized");
+        }
+        else {
+            System.out.println("'Else...if' on a method is working");
+        }
+    }
+
+    static int SumOverloading(int num1, int num2) {
+        return num1 + num2;
+    }
+
+    static double SumOverloading(double num1, double num2) {
+        return num1 + num2;
+    }
+
+
+    /*
+    static int ScopeMethod(int x) {
+        {
+            y = 1;
+        }
+        return x + y; // y -> cannot be used as a varible do to scope
+    }*/
+
+    // recursive
+    public static int RecursiveMethod(int x) {
+        if (x > 0) {
+            return x + RecursiveMethod(x-1);
+        }
+        else {
+            return 0;
+        }
+        
+    }
+
+    public static int HaltRecursiveness(int start, int end) {
+        if (end > start) {
+            return end = end + HaltRecursiveness(start, end - 1);
+        } else {
+            return end;
+        }
+    }
+
     public static void main(String[] args) {
         firstMethod(); // calling the method in the main method
         secoundMethod("dear sir"); // parameter is passed to method
         secoundMethod("dear ma'am"); 
         thirdMethod("admin", 123); // multiple parameters
-        System.out.println(forthMethod(10));
-        System.out.println(fifthMethod(10,5));
-      }
+        System.out.println(forthMethod(10)); // outputs' 10
+        System.out.println(fifthMethod(10,5)); // outputs' 15
+        int z1 = fifthMethod(100, 5); // outputs' 105
+        System.out.println(z1);
+        CheckId(1); // outputs' 'Else...if' on a method  is working
+        System.out.println(SumOverloading(10, 25)); // overloading is reusing the method
+        System.out.println(SumOverloading(10.2, 25.7)); // to use the same logic in diferent types of vars
+        // System.out.println(ScopeMethod(1)); // scope gives error, showing how scopes work
+        int recursion_result = RecursiveMethod(10);
+        System.out.println(recursion_result); // outputs' 55, method incepetion == recursive method
+        int halt_result = HaltRecursiveness(5, 15);
+        System.out.println(halt_result); // outputs 110
+      
+
+    }
 }
