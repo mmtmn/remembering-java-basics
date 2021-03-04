@@ -22,7 +22,7 @@ So far so good, looking foward for the next section: Java Methods (including: Me
  
 </div>
 
-On this second section, 120 lines of code was writting, on march 4rth 2021, two new folder were created inside the src folder. A basics folder for the last time i pushed foward into remembering java, and a folder for java methods for now. In java methods it was covered methods, returning them with multiple parameters, overloading them, how the scope workes, recursion funcionalities and recursion halting.
+On this second section, 120 lines of code was writting, on march 4rth 2021, two new folder were created inside the src folder. Now this repo will have its own folder for each section. This time around, it was covered methods, returning them with multiple parameters, overloading them, how the scope workes, recursion funcionalities and recursion halting.
 
 looking foward into next time, where classes will be explored.
 
