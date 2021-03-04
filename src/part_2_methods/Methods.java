@@ -119,7 +119,6 @@ public class Methods { // this is the class
 }
 
 /*
-
 Outputs:
 
 hello, from a method.
